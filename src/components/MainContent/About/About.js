@@ -1,18 +1,21 @@
-import { Fade } from '@material-ui/core';
 import React from 'react'
-import { fadeIn } from 'react-animations';
-import styled, { keyframes } from 'styled-components'
 import useStyles from './styles.js'
+import Fade from 'react-reveal/Fade'
+import { Typography } from '@material-ui/core';
 
 function About() {
     const classes = useStyles();
     
     return (
-        <>
-            <Fade in timeout={1000}>
-                <h1>hello</h1>
+        <div id="aboutSection">
+            <Fade top big>
+                <div>
+                    <hr className={classes.line}></hr>
+                    <Typography>Who am I?</Typography>
+                    <hr className={classes.line}></hr>
+                </div>
             </Fade>
-        </>
+        </div>
     )
 }
 

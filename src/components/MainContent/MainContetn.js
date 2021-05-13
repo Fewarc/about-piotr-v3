@@ -8,9 +8,7 @@ function MainContent() {
     
     return (
         <>
-        <div style={{ height: "1000px"}}>
-
-        </div>
+        <div style={{ height: "1500px"}}></div> {/* spacer */}
         
         <Container>
             <About />

@@ -13,8 +13,7 @@ function MainPage() {
     
     const toContent = (e) => {
         e.preventDefault();
-
-
+        document.getElementById('aboutSection').scrollIntoView({ behavior: 'smooth', block: 'center' });
     }; 
 
     return (
