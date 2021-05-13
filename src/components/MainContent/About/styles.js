@@ -9,6 +9,20 @@ export default makeStyles((theme) => ({
     },
      
     headerText: {
-      
+      display: "table",
+      margin: "auto",
+      color: "white",
+      position: "relative",
+      overflow: "hidden",
+
+      fontSize: "4vw",
+      fontFamily: "'Lato', sans-serif",
+
+      "&::before" : {
+        content: "",
+        borderBottom: "1px solid #00ffa2",
+        position: "absolute",
+        overflow: "hidden",
+      }
     }
   }));

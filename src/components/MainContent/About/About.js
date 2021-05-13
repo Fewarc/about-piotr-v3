@@ -1,7 +1,7 @@
 import React from 'react'
 import useStyles from './styles.js'
 import Fade from 'react-reveal/Fade'
-import { Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 function About() {
     const classes = useStyles();
@@ -9,11 +9,9 @@ function About() {
     return (
         <div id="aboutSection">
             <Fade top big>
-                <div>
-                    <hr className={classes.line}></hr>
-                    <Typography>Who am I?</Typography>
-                    <hr className={classes.line}></hr>
-                </div>
+                <span className={}> {/** TODO : lines */}
+                    <h1 className={classes.headerText}>Who am I?</h1>
+                </span>
             </Fade>
         </div>
     )
