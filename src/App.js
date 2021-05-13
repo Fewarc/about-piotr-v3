@@ -1,5 +1,6 @@
 import { Container } from '@material-ui/core';
 import React from 'react'
+import MainContent from './components/MainContent/MainContetn';
 import MainPage from './components/MainPage/MainPage'
 
 function parallax() {
@@ -16,8 +17,8 @@ function App() {
   return (
     <>
       <MainPage />
-      
-      <div style={{height: "1000px"}}>
+      <MainContent />
+      <div style={{height: "2000px"}}>
 
       </div>
     </>
