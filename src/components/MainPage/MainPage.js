@@ -3,7 +3,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import Particles from 'react-particles-js'
 import useStyles from './styles.js'
-import Bounce from '../Bounce/Bounce.js'
+import Bounce from '../Animations/Bounce.js'
 
 
 function MainPage() {

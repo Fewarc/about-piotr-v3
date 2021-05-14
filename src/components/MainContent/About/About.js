@@ -4,10 +4,17 @@ import Fade from 'react-reveal/Fade'
 import { Grid, Typography } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import Pulse from '../../Animations/Pulse.js';
 
 function About() {
     const classes = useStyles();
     
+    const toEducation = (e) => {
+        e.preventDefault();
+        document.getElementById('educationSection').scrollIntoView({ behavior: 'smooth'});
+    } 
+
     return (
         <div id="aboutSection" style={{ paddingTop: "14%", marginLeft: "-5%" }}>
             <Grid container justify="center" alignItems="stretch" spacing={10}>
@@ -26,9 +33,15 @@ function About() {
                     web-apps and microprocessor based devices in my spare time.</p>
                 </Grid>
             </Grid>
-            <div className={classes.toEducation}>
-
-            </div>
+            <Grid container>
+                <Grid item xs={12} sm={12} md={5} className={classes.bounceButton} onClick={(e) => toEducation(e)}>
+                    <Pulse>
+                        <FontAwesomeIcon icon={faChevronDown} style={{ marginRight: "2%" }}></FontAwesomeIcon>
+                        EDUCATION
+                        <FontAwesomeIcon icon={faChevronDown} style={{ marginLeft: "2%" }}></FontAwesomeIcon>
+                    </Pulse>
+                </Grid>
+            </Grid>
         </div>
     )
 }

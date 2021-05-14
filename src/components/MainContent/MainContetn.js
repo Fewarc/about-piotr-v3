@@ -13,7 +13,8 @@ function MainContent() {
         
         <Container maxWidth="lg">
             <About />
-            {/* <Education /> */}
+            <div style={{ height: "1500px"}}></div>
+            <Education />
         </Container>
         </>
     )
