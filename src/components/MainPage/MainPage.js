@@ -3,17 +3,15 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import Particles from 'react-particles-js'
 import useStyles from './styles.js'
-import styled, { keyframes } from 'styled-components'
-import { bounce } from 'react-animations'
+import Bounce from '../Bounce/Bounce.js'
 
-const Bounce = styled.div`animation: 3s ${keyframes`${bounce}`} infinite`;
 
 function MainPage() {
     const classes = useStyles();
     
     const toContent = (e) => {
         e.preventDefault();
-        document.getElementById('aboutSection').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        document.getElementById('aboutSection').scrollIntoView({ behavior: 'smooth'});
     }; 
 
     return (

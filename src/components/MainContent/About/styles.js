@@ -10,19 +10,31 @@ export default makeStyles((theme) => ({
      
     headerText: {
       display: "table",
-      margin: "auto",
+      marginLeft: "-2%",
+      marginTop: "-10%",
       color: "white",
-      position: "relative",
-      overflow: "hidden",
+      textAlign: "center",
 
-      fontSize: "4vw",
+      fontSize: "calc(2vw + 2vh)",
+      fontFamily: "'Lexend Mega', sans-serif",
+    },
+
+    aboutLeft: { 
+      color: "white", 
+
+      textAlign: "center",
+
+      fontSize: "calc(2vw + 2vh)",
+      fontFamily: "'Lexend Mega', sans-serif",
+    },
+
+    aboutRight: {
+      color: "white",
+      marginTop: "-2%",
+
+      fontSize: "calc(1vw + 2vh)",
       fontFamily: "'Lato', sans-serif",
 
-      "&::before" : {
-        content: "",
-        borderBottom: "1px solid #00ffa2",
-        position: "absolute",
-        overflow: "hidden",
-      }
+      border: "dashed 15px #252526",
     }
   }));
