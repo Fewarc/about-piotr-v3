@@ -41,7 +41,7 @@ function Skills() {
                 <p className={classes.skillParaghraph}>
                 <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   CSS</p>
                 <p className={classes.skillParaghraph}>
-                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   MongoDB</p>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   SQL & NoSQL</p>
             </Grid>
             <Grid item xs={12} md={6} lg={3} className={classes.skillList}>
             <FontAwesomeIcon icon={faCodeBranch} size="4x" color="#00ffa2"/>
@@ -56,6 +56,8 @@ function Skills() {
                 <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Experience using NPM</p>
                 <p className={classes.skillParaghraph}>
                 <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Experience using Material-ui components</p>
+                <p className={classes.skillParaghraph}>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Knwoledge of MongoDB</p>
             </Grid>
             <Grid item xs={12} md={6} lg={3} className={classes.skillList}>
             <FontAwesomeIcon icon={faUsers} size="4x" color="#00ffa2"/>

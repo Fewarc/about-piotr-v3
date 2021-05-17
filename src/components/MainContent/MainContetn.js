@@ -5,6 +5,7 @@ import Education from './Education/Education.js';
 import Skills from './Skills/Skills.js'
 import Projects from './Projects/Projects.js'
 import Hobbies from './Hobbies/Hobbies.js'
+import Contact from './Contact/Contact.js'
 import useStyles from './styles.js'
 
 function MainContent() {
@@ -24,6 +25,8 @@ function MainContent() {
             <Projects />
             <div style={{ height: "1500px"}}></div>
             <Hobbies />
+            <div style={{ height: "1500px"}}></div>
+            <Contact />
         </Container>
         </>
     )

@@ -27,7 +27,7 @@ export default makeStyles((theme) => ({
 
     bounceButton: {
       color: "white",
-      marginTop: "5%",
+      marginTop: "2%",
       textAlign: "center",
 
       fontSize: "0.75rem",

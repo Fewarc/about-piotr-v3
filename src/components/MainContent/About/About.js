@@ -27,10 +27,12 @@ function About() {
                     </Fade>
                 </Grid>
                 <Grid item sm={12} md={7} className={classes.aboutRight}>
-                    <h1>Hello, I'm <p style={{ display: "inline", color: "#00ffa2" }}>Piotr</p></h1>
+                    <h1 style={{ marginTop: "-5%" }}>Hello, I'm <p style={{ display: "inline", color: "#00ffa2" }}>Piotr</p></h1>
                     <p>I'm a third year automatic control and robotics student with specialization of information technologies. 
-                    I'm passionate about programming and web development including both back-end and front-end. I love creating
-                    web-apps and microprocessor based devices in my spare time.</p>
+                    I'm passionate about programming and web development. I love creating
+                    web-apps and microprocessor based devices in my spare time.<br/><br/>Currently looking for : 
+                    <p style={{ display: "inline", color: "#00ffa2" }}> Internship</p> - front-end / back-end / fullstack, using 
+                    Node.js, Express.js, React.js, Redux, MongoDB</p>
                 </Grid>
             </Grid>
             <Grid container>
