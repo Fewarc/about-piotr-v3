@@ -12,10 +12,6 @@ export default makeStyles((theme) => ({
       paddingTop: "-5%"
     },
 
-    eduTitleChevron: {
-      
-    },
-
     eduTitleChevronIcon: {
       position: "absolute",
       top: "50%",
