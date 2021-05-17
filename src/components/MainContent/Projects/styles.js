@@ -8,5 +8,11 @@ export default makeStyles((theme) => ({
 
       fontSize: "calc(2vw + 2vh)",
       fontFamily: "'Lexend Mega', sans-serif",
+
+      marginBottom: "-3%"
+    },
+
+    navButtons: {
+      backgroundColor: "red"
     }
   }));

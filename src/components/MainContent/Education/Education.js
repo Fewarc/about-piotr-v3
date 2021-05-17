@@ -118,7 +118,7 @@ const theme = createMuiTheme({
                 </Stepper>
             </MuiThemeProvider>
             {getEduContent()}
-            <Grid item xs={12} className={classes.bounceButton} onClick={(e) => toSkills(e)}>
+            <Grid item xs={12} justify="center" className={classes.bounceButton} onClick={(e) => toSkills(e)}>
                     <Pulse>
                         <FontAwesomeIcon icon={faChevronDown} style={{ marginRight: "2%" }}></FontAwesomeIcon>
                         SKILLS

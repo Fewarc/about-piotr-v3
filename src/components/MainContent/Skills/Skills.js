@@ -40,6 +40,8 @@ function Skills() {
                 <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   HTML</p>
                 <p className={classes.skillParaghraph}>
                 <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   CSS</p>
+                <p className={classes.skillParaghraph}>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   MongoDB</p>
             </Grid>
             <Grid item xs={12} md={6} lg={3} className={classes.skillList}>
             <FontAwesomeIcon icon={faCodeBranch} size="4x" color="#00ffa2"/>

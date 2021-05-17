@@ -16,15 +16,16 @@ function Projects() {
     }
 
     const projects = [
-    {title: '//todo list app', desc: '', tech: ''},
-    {title: 'SurveyX - survey delivery', desc: '', tech: ''},
-    {title: '', desc: '', tech: ''}];
+    {title: '//todo list app', desc: 'Built using: Node.js, React.js w/ Redux, MongoDB', github: '', image: ''},
+    {title: 'This site', desc: 'Built using: React.js', github: '', image: ''},
+    {title: 'SurveyX app', desc: 'Built using: AJAX, Java JDBC, OracleDB', github: '', image: ''},
+    {title: 'Sorting algorithm visualization', desc: 'Built using: Java', github: '', image: ''}];
 
     const proCarousel = () => {
         return (
-            <Carousel>
+            <Carousel indicators={false} autoPlay={false} navButtonsAlwaysVisible={true} navButtonsProps={{ style: {color: "#00ffa2", background: "transparent"} }}>
                 {projects.map( (project) => {
-                    <ProjectItem project={project} />
+                    return (<ProjectItem project={project} />)
                 })}
             </Carousel>
         );
