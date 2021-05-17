@@ -45,7 +45,8 @@ const theme = createMuiTheme({
     }
 
     const toSkills = (e) => {
-
+        e.preventDefault();
+        document.getElementById('skillsSection').scrollIntoView({ behavior: 'smooth'});
     };
 
     const getEduContent = () => {
@@ -55,10 +56,10 @@ const theme = createMuiTheme({
                 <div style={{ marginTop: "5%" }}>
                     <Fade> {/* this comment has to be here for the animations to work xddddd */}
                         <Grid container justify="center" content="stretch" spacing={4}>
-                            <Grid item xs={12} lg={4} className={classes.eduTime}>
+                            <Grid item xs={12} md={4} className={classes.eduTime}>
                                 <h1>09.2015 - 06.2018</h1>
                             </Grid>
-                            <Grid item xs={12} lg={8} className={classes.eduDesc}>
+                            <Grid item xs={12} md={8} className={classes.eduDesc}>
                                 <h1>V <p style={{ display: "inline", color: "#00ffa2" }}>High School</p> of chancellor Jan Zamoyski in Dąbrowa Górnicza</h1>
                                 <p className={classes.eduDescParagraph}>
                                 <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Class profile : Mathematics & IT</p>

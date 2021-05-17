@@ -8,6 +8,8 @@ export default makeStyles((theme) => ({
 
       fontSize: "calc(2vw + 2vh)",
       fontFamily: "'Lexend Mega', sans-serif",
+
+      paddingTop: "-5%"
     },
 
     eduTitleChevron: {
@@ -45,7 +47,7 @@ export default makeStyles((theme) => ({
 
     bounceButton: {
       color: "white",
-      marginTop: "10%",
+      marginTop: "5%",
       textAlign: "center",
       marginLeft: "-2%",
 
