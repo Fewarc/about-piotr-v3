@@ -6,6 +6,7 @@ import { Grid } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronRight, faCode, faUsers, faCodeBranch, faThumbtack } from '@fortawesome/free-solid-svg-icons';
 import ProjectItem from './ProjectItem/ProjectItem.js';
+import Pulse from '../../Animations/Pulse.js';
 
 function Projects() {
     const classes = useStyles();
@@ -16,7 +17,7 @@ function Projects() {
     }
 
     const projects = [
-    {title: '//todo list app', desc: 'Built using: Node.js, React.js w/ Redux, MongoDB', github: '', image: ''},
+    {title: '//todo list app', desc: 'Built using: Node.js w/ Express, React.js w/ Redux, MongoDB', github: '', image: ''},
     {title: 'This site', desc: 'Built using: React.js', github: '', image: ''},
     {title: 'SurveyX app', desc: 'Built using: AJAX, Java JDBC, OracleDB', github: '', image: ''},
     {title: 'Sorting algorithm visualization', desc: 'Built using: Java', github: '', image: ''}];
@@ -41,6 +42,13 @@ function Projects() {
             </Grid>
         </Grid>
         {proCarousel()}
+        <Grid item xs={12} justify="center" className={classes.bounceButton} onClick={(e) => toHobbies(e)}>
+            <Pulse>
+                <FontAwesomeIcon icon={faChevronDown} style={{ marginRight: "2%" }}></FontAwesomeIcon>
+                HOBBIES
+                <FontAwesomeIcon icon={faChevronDown} style={{ marginLeft: "2%" }}></FontAwesomeIcon>
+            </Pulse>
+        </Grid>
     </div>);
 }
 

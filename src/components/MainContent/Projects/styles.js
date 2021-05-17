@@ -14,5 +14,15 @@ export default makeStyles((theme) => ({
 
     navButtons: {
       backgroundColor: "red"
-    }
+    },
+
+    bounceButton: {
+      color: "white",
+      marginTop: "5%",
+      textAlign: "center",
+
+      fontSize: "0.75rem",
+      fontFamily: "'Lexend Mega', sans-serif",
+      cursor: "pointer"
+    },
   }));

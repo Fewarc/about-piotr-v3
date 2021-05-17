@@ -28,7 +28,7 @@ function ProjectItem(props) {
     });
 
     const handleGithub = () => {
-        window.open("https://www.google.com");
+        window.open("https://www.google.com"); // TODO
     }
 
     return (

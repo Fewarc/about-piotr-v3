@@ -53,7 +53,7 @@ const theme = createMuiTheme({
         switch (activeStep) {
             case 0 :
                 return (
-                <div style={{ marginTop: "5%" }}>
+                <div style={{ marginTop: "3%" }}>
                     <Fade> {/* this comment has to be here for the animations to work xddddd */}
                         <Grid container justify="center" content="stretch" spacing={4}>
                             <Grid item xs={12} md={4} className={classes.eduTime}>
@@ -72,7 +72,7 @@ const theme = createMuiTheme({
 
             case 1 :
                 return (
-                <div style={{ marginTop: "5%" }}>
+                <div style={{ marginTop: "3%" }}>
                     <Fade>
                         <Grid container justify="center" content="stretch" spacing={4}>
                             <Grid item xs={12} lg={4} className={classes.eduTime}>
@@ -119,12 +119,12 @@ const theme = createMuiTheme({
             </MuiThemeProvider>
             {getEduContent()}
             <Grid item xs={12} justify="center" className={classes.bounceButton} onClick={(e) => toSkills(e)}>
-                    <Pulse>
-                        <FontAwesomeIcon icon={faChevronDown} style={{ marginRight: "2%" }}></FontAwesomeIcon>
-                        SKILLS
-                        <FontAwesomeIcon icon={faChevronDown} style={{ marginLeft: "2%" }}></FontAwesomeIcon>
-                    </Pulse>
-                </Grid>
+                <Pulse>
+                    <FontAwesomeIcon icon={faChevronDown} style={{ marginRight: "2%" }}></FontAwesomeIcon>
+                    SKILLS
+                    <FontAwesomeIcon icon={faChevronDown} style={{ marginLeft: "2%" }}></FontAwesomeIcon>
+                </Pulse>
+            </Grid>
         </div>
     )
 }
