@@ -23,5 +23,16 @@ export default makeStyles((theme) => ({
       fontFamily: "'Lato', sans-serif",
 
       textAlign: "center"
-    }
+    },
+
+    bounceButton: {
+      color: "white",
+      marginTop: "5%",
+      textAlign: "center",
+      marginLeft: "-2%",
+
+      fontSize: "0.75rem",
+      fontFamily: "'Lexend Mega', sans-serif",
+      cursor: "pointer"
+    },
   }));

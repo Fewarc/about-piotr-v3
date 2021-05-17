@@ -3,6 +3,7 @@ import React from 'react'
 import About from './About/About.js';
 import Education from './Education/Education.js';
 import Skills from './Skills/Skills.js'
+import Projects from './Projects/Projects.js'
 import useStyles from './styles.js'
 
 function MainContent() {
@@ -18,6 +19,8 @@ function MainContent() {
             <Education />
             <div style={{ height: "1500px"}}></div>
             <Skills />
+            <div style={{ height: "1500px"}}></div>
+            <Projects />
         </Container>
         </>
     )
