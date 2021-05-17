@@ -9,7 +9,7 @@ function MainContent() {
     
     return (
         <>
-        <div style={{ height: "1500px"}}></div> {/* spacer */}
+        <div style={{ height: "1500px" }}></div> {/* spacer */}
         
         <Container maxWidth="lg">
             <About />

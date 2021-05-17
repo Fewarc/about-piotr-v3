@@ -48,5 +48,9 @@ export default makeStyles((theme) => ({
       fontFamily: "'Lexend Mega', sans-serif",
       cursor: "pointer"
 
+    },
+
+    eduStepper: {
+      backgroundColor: "#1e1e1e"
     }
   }));
