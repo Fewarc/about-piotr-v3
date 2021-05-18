@@ -19,8 +19,8 @@ function Projects() {
     const projects = [
     {title: '//todo list app', desc: 'Built using: Node.js w/ Express, React.js w/ Redux, MongoDB', github: 'https://github.com/Fewarc/todo-list-app', image: 'https://user-images.githubusercontent.com/56931828/117970149-9ed8bc80-b328-11eb-897b-d2f768ff5896.png'},
     {title: 'This site', desc: 'Built using: React.js', github: 'https://github.com/Fewarc/about-piotr-v3', image: 'https://user-images.githubusercontent.com/56931828/118634773-3465c780-b7d3-11eb-840c-65bd285d32e2.png'},
-    {title: 'SurveyX app', desc: 'Built using: AJAX, Java JDBC, OracleDB', github: '', image: ''},
-    {title: 'Sorting algorithm visualization', desc: 'Built using: Java', github: '', image: ''}];
+    {title: 'SurveyX app', desc: 'Built using: AJAX, Java JDBC, DerbyDB', github: 'https://github.com/Fewarc/surveyx', image: 'https://user-images.githubusercontent.com/56931828/118682019-59bcfa80-b800-11eb-8413-ccdb101f847b.png'},
+    {title: 'Sorting algorithms visualization', desc: 'Built using: Java', github: 'https://github.com/Fewarc/sorting-visualization', image: 'https://user-images.githubusercontent.com/56931828/118679251-05b11680-b7fe-11eb-8e64-00f0b9107c18.png'}];
 
     const proCarousel = () => {
         return (

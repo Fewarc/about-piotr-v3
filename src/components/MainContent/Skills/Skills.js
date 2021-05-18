@@ -31,17 +31,17 @@ function Skills() {
                     <h1>Languages</h1>
                 </Slide>
                 <p className={classes.skillParaghraph}>
-                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Javascript</p>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Good knowledge of Javascript</p>
                 <p className={classes.skillParaghraph}>
-                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Java</p>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Knowledge of Java</p>
                 <p className={classes.skillParaghraph}>
-                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   C++</p>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Good knowledge of C++</p>
                 <p className={classes.skillParaghraph}>
-                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   HTML</p>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Good knowledge of HTML</p>
                 <p className={classes.skillParaghraph}>
-                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   CSS</p>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Good knowledge of CSS</p>
                 <p className={classes.skillParaghraph}>
-                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   SQL & NoSQL</p>
+                <FontAwesomeIcon icon={faChevronRight} color="#00ffa2"/>   Knowledge SQL & NoSQL</p>
             </Grid>
             <Grid item xs={12} md={6} lg={3} className={classes.skillList}>
             <FontAwesomeIcon icon={faCodeBranch} size="4x" color="#00ffa2"/>
