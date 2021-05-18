@@ -11,7 +11,7 @@ import Pulse from '../../Animations/Pulse.js'
 
 function Education() {
     const classes = useStyles();
-    const [activeStep, updateStep] = useState(0);
+    const [activeStep, updateStep] = useState(1);
     const steps = ['Secondary School', 'University'];
 
 const theme = createMuiTheme({
