@@ -15,7 +15,7 @@ function MainPage() {
     }; 
 
     return (
-        <div>
+        <div id="mainPage">
             <div id="mainText" className={`${classes.mainText} ${classes.unselectable}`}>
                 About Piotr.
             </div>

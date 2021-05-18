@@ -17,8 +17,8 @@ function Projects() {
     }
 
     const projects = [
-    {title: '//todo list app', desc: 'Built using: Node.js w/ Express, React.js w/ Redux, MongoDB', github: '', image: ''},
-    {title: 'This site', desc: 'Built using: React.js', github: '', image: ''},
+    {title: '//todo list app', desc: 'Built using: Node.js w/ Express, React.js w/ Redux, MongoDB', github: 'https://github.com/Fewarc/todo-list-app', image: 'https://user-images.githubusercontent.com/56931828/117970149-9ed8bc80-b328-11eb-897b-d2f768ff5896.png'},
+    {title: 'This site', desc: 'Built using: React.js', github: 'https://github.com/Fewarc/about-piotr-v3', image: 'https://user-images.githubusercontent.com/56931828/118634773-3465c780-b7d3-11eb-840c-65bd285d32e2.png'},
     {title: 'SurveyX app', desc: 'Built using: AJAX, Java JDBC, OracleDB', github: '', image: ''},
     {title: 'Sorting algorithm visualization', desc: 'Built using: Java', github: '', image: ''}];
 
@@ -26,7 +26,7 @@ function Projects() {
         return (
             <Carousel indicators={false} autoPlay={false} navButtonsAlwaysVisible={true} navButtonsProps={{ style: {color: "#00ffa2", background: "transparent"} }}>
                 {projects.map( (project) => {
-                    return (<ProjectItem project={project} />)
+                    return (<ProjectItem key={project.title} project={project} />)
                 })}
             </Carousel>
         );

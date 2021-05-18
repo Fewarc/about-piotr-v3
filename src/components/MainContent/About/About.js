@@ -32,7 +32,7 @@ function About() {
                     I'm passionate about programming and web development. I love creating
                     web-apps and microprocessor based devices in my spare time.<br/><br/>Currently looking for : 
                     <p style={{ display: "inline", color: "#00ffa2" }}> Internship</p> - front-end / back-end / fullstack, using 
-                    Node.js, Express.js, React.js, Redux, MongoDB</p>
+                    Node.js / Express.js / React.js / Redux / MongoDB</p>
                 </Grid>
             </Grid>
             <Grid container>

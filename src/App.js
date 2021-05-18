@@ -17,9 +17,7 @@ function App() {
     <>
       <MainPage />
       <MainContent />
-      <div style={{height: "2000px"}}>
-
-      </div>
+      <div style={{ height: "300px" }}></div>
     </>
   );
 }

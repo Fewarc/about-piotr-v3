@@ -28,7 +28,7 @@ function ProjectItem(props) {
     });
 
     const handleGithub = () => {
-        window.open("https://www.google.com"); // TODO
+        window.open(`${props.project.github}`);
     }
 
     return (
@@ -38,7 +38,7 @@ function ProjectItem(props) {
             className={classes.proImage}
             height={200}
             component="img"
-            src="https://user-images.githubusercontent.com/56931828/117970149-9ed8bc80-b328-11eb-897b-d2f768ff5896.png" // TODO
+            src={`${props.project.image}`}
             />
             <CardContent className={classes.projectDesc}>
                 <h1>{props.project.title}</h1>
